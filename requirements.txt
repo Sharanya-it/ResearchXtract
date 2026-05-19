@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain-google-genai
+PyMuPDF
+camelot-py[cv]
+opencv-python
+python-dotenv
+pandas
+plotly
+pdfplumber
+httpx
+mistralai
