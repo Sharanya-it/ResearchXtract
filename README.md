@@ -4,28 +4,27 @@ ResearchXtract is a Streamlit-based research paper insight extraction and struct
 
 ## Features
 
-- Upload and analyze research papers in PDF format
-- Detect and browse paper sections
-- Generate structured section summaries using Gemini
-- Extract key concepts and important terms
-- Ask questions about selected sections
-- Extract tables and visual content from PDFs
-- Recommend related research papers using Semantic Scholar with Gemini and Mistral fallback support
-- Cache summaries, metadata, and recommendations for faster repeat analysis
-- Export analyzed content as a PDF report
+* Upload and analyze research papers in PDF format
+* Detect and browse paper sections
+* Generate structured section summaries using Gemini
+* Extract key concepts and important terms
+* Ask questions about selected sections
+* Extract text, sections, and visual content from PDFs
+* Recommend related research papers using Semantic Scholar with Gemini and Mistral fallback support
+* Cache summaries, metadata, and recommendations for faster repeat analysis
+* Export analyzed content as a PDF report
 
 ## Tech Stack
 
-- Python
-- Streamlit
-- LangChain
-- Google Gemini
-- Mistral AI
-- Semantic Scholar API
-- PyMuPDF
-- pdfplumber
-- Camelot
-- Plotly
+* Python
+* Streamlit
+* LangChain
+* Google Gemini
+* Mistral AI
+* Semantic Scholar API
+* PyMuPDF
+* pdfplumber
+* Plotly
 
 ## Project Structure
 
@@ -123,6 +122,7 @@ git push
 
 ## Notes
 
-- Local cache files are stored in `.cache/` and should not be committed.
-- Virtual environments such as `.venv/` and `venv/` should not be committed.
-- Generated temporary data should stay out of Git.
+* Local cache files are stored in `.cache/` and should not be committed.
+* Virtual environments such as `.venv/` and `venv/` should not be committed.
+* Generated temporary data should stay out of Git.
+* API keys should be stored only in the `.env` file and should not be committed to GitHub.
